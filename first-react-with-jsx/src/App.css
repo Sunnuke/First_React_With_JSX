@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -32,7 +32,13 @@
   from {
     transform: rotate(0deg);
   }
-  to {
+  to {list-style: none;
     transform: rotate(360deg);
   }
+}
+ul {
+  list-style: none;
+}
+ul li::before {
+  content: "\002A";
 }
